@@ -1,5 +1,6 @@
 # SISR-Projet
-Projet site web pdo BTS SISR SIO 1ére année by Rutella Lucas, Diaz Lucas, Bagana Wassim, GraF Julien
+
+💻Projet PDO - BTS SIO SISR
 
     ✅ Développement user
     ❌ Développement admin
