@@ -1,0 +1,109 @@
+header {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+}
+
+nav {
+    width: 100%;
+    background-color: #dee0de4f;
+
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav a:hover {
+    color: #ffffff8e;
+    background-color: #c24d1773;
+    text-decoration: none;
+}
+
+.box {
+    border: 1px solid #dee0de;
+    padding: 27px 25px 10px 25px;
+    background: #dee0de4f;
+    margin: 30px auto;
+    width: 360px;
+}
+
+h1.box-logo a {
+    text-decoration: none;
+}
+
+h1.box-title {
+    color: #000000;
+    background: #f8f8f8b6;
+    font-weight: 300;
+    padding: 15px 25px;
+    line-height: 30px;
+    font-size: 25px;
+    text-align: center;
+    margin: -31px -26px 26px;
+}
+
+.box-button {
+    border-radius: 5px;
+    background: #d2483c;
+    text-align: center;
+    cursor: pointer;
+    font-size: 19px;
+    width: 100%;
+    height: 51px;
+    padding: 0;
+    color: #fff;
+    border: 0;
+    outline: 0;
+}
+
+.box-register {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.box-input {
+    font-size: 14px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    border-radius: 5px;
+    width: 347px;
+    height: 50px;
+}
+
+.box-input:focus {
+    outline: none;
+    border-color: #5c7186;
+}
+
+body {
+    background: linear-gradient(-45deg, #e2562c, #d44c80, #cfaf45, #dd0202);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
