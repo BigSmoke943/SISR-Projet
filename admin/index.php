@@ -36,12 +36,13 @@ if($_SESSION['role'] == 'admin' )
 				<input type="number" class="box-input" required name="max" placeholder="Exemple: 25">
 				<input type="submit" value="Rechercher " name="valider" class="box-button">
 		</form>
-		<form class="box" action="../traitement/tlogin.php" method="post" name="login">
+		<form class="box" action="../traitement/tpays.php" method="post" name="login">
 				<h1 class="box-title">Recherche d'utilisateur par pays</h1>
 				<input type="radio" name="pays" value="France" /> <label for="france">France</label>
-                <input type="radio" name="pays" value="Autre" /> <label for="autre">Autre</label>
+        <input type="radio" name="pays" value="Autre" /> <label for="autre">Autre</label>
 				<input type="submit" value="Rechercher " name="valider2" class="box-button">
 		</form>
 	</body>
 </html>
-<?php } ?>
+<?php }
+?>

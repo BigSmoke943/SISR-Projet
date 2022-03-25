@@ -20,15 +20,8 @@
     <input type="text" class="box-input" name="prenom" placeholder="Prénom" required />
     <input type="number" class="box-input" name="age" placeholder="Âge" required />
     <label for=""></label>
-            <select class="box-input" name="metier" required>
-                <option value="" disabled selected>Metier</option>
-                    <option value="pdg">PDG</option>
-                    <option value="cadre">Cadre</option>
-                    <option value="fonctionnaire">Fonctionnaire</option>
-                    <option value="ouvrier">Ouvrier</option> 
-            </select>
-
-            <label for=""> Pays : </label>
+    <input type="text" class="box-input" name="metier" placeholder="Métier" required/>
+    <label for=""> Pays de residence: </label>
             <input type="radio" required name="pays" value="france">France</input>
             <input type="radio" required name="pays" value="autre">Autre</input>
 
